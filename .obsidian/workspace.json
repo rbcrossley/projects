@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "65b48b65158aed7e",
+    "type": "split",
+    "children": [
+      {
+        "id": "ddec647994780f47",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b037de029c18275f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bash projects/bash scripting projects/domain restart project/V1 Domain restart project.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c0684def7c53bb09",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd74eca1a3f58adc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dcf8efd94993b3d2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cda0f66f16f4d6fa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "441e5d9f821fc9aa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4a89835c666632f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e7d66e5f16a6d83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d5b647300d8033ef",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "bash projects/bash scripting projects/domain restart project/V1 Domain restart project.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7e8a73a3b1380555",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "bash projects/bash scripting projects/domain restart project/V1 Domain restart project.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "15246230277aeb56",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "28288b62c6217d45",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "bash projects/bash scripting projects/domain restart project/V1 Domain restart project.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b037de029c18275f",
+  "lastOpenFiles": [
+    "bash projects/bash scripting projects/traverse directory project/V1_Traverse a directory except excluded directory .md",
+    "bash projects/bash scripting projects/domain restart project/V1 Domain restart project.md",
+    "bash projects/bash scripting projects/domain restart project",
+    "bash projects/bash scripting projects/traverse directory project"
+  ]
+}
