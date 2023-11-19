@@ -22,9 +22,9 @@ This runs everyday at 1 AM.
 To test every 1 second, just do `* * * * *` in cron job.
 
 # What does -s do?
-![[attachments/Pasted image 20231119165711.png]]
+
 # Explain the cron tab
-![[attachments/Pasted image 20231119165828.png]]
+![](attachments/Pasted%20image%2020231119175625.png)
 
 # References:
 https://www.sentia.com.au/blog/managing-log-files-on-ubuntu-servers-without-root-access
