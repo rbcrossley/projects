@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bash projects/bash scripting projects/domain restart project/V2 Domain restart project.md",
+                "file": "automation projects/logrotate/rotate catalina.out.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bash projects/bash scripting projects/domain restart project/V2 Domain restart project.md",
+                "file": "automation projects/logrotate/rotate catalina.out.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bash projects/bash scripting projects/domain restart project/V2 Domain restart project.md",
+                "file": "automation projects/logrotate/rotate catalina.out.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bash projects/bash scripting projects/domain restart project/V2 Domain restart project.md"
+                "file": "automation projects/logrotate/rotate catalina.out.md"
               }
             }
           }
@@ -148,8 +148,13 @@
   },
   "active": "b037de029c18275f",
   "lastOpenFiles": [
+    "bash projects/bash scripting projects/log vomiter project/V2-log vomiter.md",
+    "automation projects/logrotate/rotate catalina.out.md",
+    "automation projects/logrotate",
+    "bash projects/bash scripting projects/log vomiter project/V1-log vomiter.md",
     "Untitled.md",
     "bash projects/bash scripting projects/domain restart project/V2 Domain restart project.md",
+    "bash projects/bash scripting projects/log vomiter project",
     "bash projects/bash scripting projects/domain restart project/V1 Domain restart project.md",
     "bash projects/bash scripting projects/traverse directory project/V1_Traverse a directory except excluded directory .md",
     "bash projects/bash scripting projects/domain restart project",
