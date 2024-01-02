@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "automation projects/logrotate/V2 rotate catalina.out.md",
+                "file": "bash projects/bash scripting projects/domain restart project/V3 Domain restart project.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "automation projects/logrotate/V2 rotate catalina.out.md",
+                "file": "bash projects/bash scripting projects/domain restart project/V3 Domain restart project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "automation projects/logrotate/V2 rotate catalina.out.md",
+                "file": "bash projects/bash scripting projects/domain restart project/V3 Domain restart project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "automation projects/logrotate/V2 rotate catalina.out.md"
+                "file": "bash projects/bash scripting projects/domain restart project/V3 Domain restart project.md"
               }
             }
           }
@@ -148,9 +148,10 @@
   },
   "active": "b037de029c18275f",
   "lastOpenFiles": [
+    "automation projects/logrotate/V2 rotate catalina.out.md",
+    "bash projects/bash scripting projects/domain restart project/V3 Domain restart project.md",
     "automation projects/logrotate/attachments/Pasted image 20231119175625.png",
     "automation projects/logrotate/V1 rotate catalina.out.md",
-    "automation projects/logrotate/V2 rotate catalina.out.md",
     "automation projects/logrotate/attachments/Pasted image 20231119165828.png",
     "automation projects/logrotate/attachments/Pasted image 20231119165711.png",
     "automation projects/logrotate/attachments",

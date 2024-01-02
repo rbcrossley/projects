@@ -1,0 +1,1 @@
+This contains domain names of the server in any format.
