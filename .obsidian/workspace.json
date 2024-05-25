@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bash projects/bash scripting projects/domain restart project/V3 Domain restart project.md",
+                "file": "bash projects/bash scripting projects/poll port 443 project/V2 poll port 443 continuously.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bash projects/bash scripting projects/domain restart project/V3 Domain restart project.md",
+                "file": "bash projects/bash scripting projects/poll port 443 project/V2 poll port 443 continuously.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bash projects/bash scripting projects/domain restart project/V3 Domain restart project.md",
+                "file": "bash projects/bash scripting projects/poll port 443 project/V2 poll port 443 continuously.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bash projects/bash scripting projects/domain restart project/V3 Domain restart project.md"
+                "file": "bash projects/bash scripting projects/poll port 443 project/V2 poll port 443 continuously.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -148,8 +149,21 @@
   },
   "active": "b037de029c18275f",
   "lastOpenFiles": [
+    "others/DES/DES.md",
     "automation projects/logrotate/V2 rotate catalina.out.md",
+    "bash projects/bash scripting projects/poll port 443 project/V3.md",
+    "bash projects/bash scripting projects/poll port 443 project/V1 poll port 443 continuously.md",
+    "bash projects/bash scripting projects/poll port 443 project/V2 poll port 443 continuously.md",
+    "automation projects/jobs-scraper/jobs-scraper.js.md",
+    "automation projects/jobs-scraper",
+    "others/DES",
+    "others",
+    "automation projects/ssl_monitoring/node_modules/ssl-checker/README.md",
+    "bash projects/bash scripting projects/poll port 443 project/attachments/Pasted image 20240131200225.png",
+    "bash projects/bash scripting projects/poll port 443 project/attachments/Pasted image 20240131195826.png",
+    "bash projects/bash scripting projects/poll port 443 project/attachments",
     "bash projects/bash scripting projects/domain restart project/V3 Domain restart project.md",
+    "bash projects/bash scripting projects/poll port 443 project",
     "automation projects/logrotate/attachments/Pasted image 20231119175625.png",
     "automation projects/logrotate/V1 rotate catalina.out.md",
     "automation projects/logrotate/attachments/Pasted image 20231119165828.png",

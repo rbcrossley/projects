@@ -30,3 +30,5 @@ for domain in "${arrayOfDomains[@]}"; do
     domain_action "$actionToPerform" "$domain"
 done
 ```
+
+
