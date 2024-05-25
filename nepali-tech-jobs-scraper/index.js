@@ -17,6 +17,12 @@ async function main() {
   insight_workshop();
   fusemachines();
   tekkon();
+  growbydata();
+  hazesoft();
+  gurzu();
+  softbenz();
+  greenticknepal();
+  threatnix();
 }
 
 async function logpoint() {
@@ -125,9 +131,64 @@ async function javra() {
   });
 }
 
+async function growbydata() {
+  const result = await request.get("https://growbydata.com/career-overview/");
+  const $ = cheerio.load(result);
+  $(
+    "#accordion2 > div > div.accordion-heading > h3 > a > span.gbd-careers-title"
+  ).each((index, element) => {
+    console.log($(element).text().trim() + " " + "growbydata");
+  });
+}
+
+async function hazesoft() {
+  const result = await request.get("https://hazesoft.co/careers/");
+  const $ = cheerio.load(result);
+  $(
+    "body > main > main > section.pb-130 > div > div > div > div > div.content-block.mt-70 > a > h3"
+  ).each((index, element) => {
+    console.log($(element).text().trim() + " " + "hazesoft");
+  });
+}
+
+async function gurzu() {
+  const result = await request.get("https://careers.gurzu.net/jobs");
+  const $ = cheerio.load(result);
+  $("#jobs_grid > a > div > div > h3 > span").each((index, element) => {
+    console.log($(element).text().trim() + " " + "gurzu");
+  });
+}
+
+async function softbenz() {
+  const result = await request.get("https://softbenz.com/careers");
+  const $ = cheerio.load(result);
+  $(
+    "#services > div > div.ttm-boxes-quickservicebox.position-relative.mt-10 > div > div > div > div > div.featured-title > h4"
+  ).each((index, element) => {
+    console.log($(element).text().trim() + " " + "softbenz");
+  });
+}
+
+async function greenticknepal() {
+  const result = await request.get("https://gtn.com.np/our-vacancies/");
+  const $ = cheerio.load(result);
+  $(
+    "#panel-1494-1-0-0 > div > div > div > div.sjb-listing > div > div > div > header > div > div.col-md-11.col-sm-10 > div > div.col-md-5 > div > h4 > a > span"
+  ).each((index, element) => {
+    console.log($(element).text().trim() + " " + "greenticknepal");
+  });
+}
+async function threatnix() {
+  const result = await request.get("https://threatnix.io/career");
+  const $ = cheerio.load(result);
+
+  $("body > section > div > div > div > h3").each((index, element) => {
+    console.log($(element).text().trim() + " " + "threatnix");
+  });
+}
 async function infinite() {
   const result = await request.get(
-    "https://sjobs.brassring.com/TGNewUI/Search/Home/Home?partnerid=26656&siteid=5008#keyWordSearch=&locationSearch=Nepal"
+    "https://sjobs.brassring.com/TGNewUI/Search/Home/Home?partnerid=26656&siteid=5008#Entity=Infinite%20Software%20Services%20Nepal%20Pvt.%20Ltd.&keyWordSearch=&locationSearch="
   );
   //console.log(result)
   const $ = cheerio.load(result);
