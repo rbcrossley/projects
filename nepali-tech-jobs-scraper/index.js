@@ -23,6 +23,11 @@ async function main() {
   softbenz();
   greenticknepal();
   threatnix();
+  esewa();
+  hitachi();
+  proxmed();
+  raralabs();
+  ibriz();
 }
 
 async function logpoint() {
@@ -148,6 +153,60 @@ async function hazesoft() {
     "body > main > main > section.pb-130 > div > div > div > div > div.content-block.mt-70 > a > h3"
   ).each((index, element) => {
     console.log($(element).text().trim() + " " + "hazesoft");
+  });
+}
+
+async function esewa() {
+  const result = await request.get(
+    "https://career.f1soft.com/organizations/esewa"
+  );
+  const $ = cheerio.load(result);
+  $(
+    "body > div.job-listing-area.pt-100.pb-70 > div > div > div.col-lg-8 > div > div > div > div > div > div.content > h3 > a"
+  ).each((index, element) => {
+    console.log($(element).text().trim() + " " + "esewa");
+  });
+}
+
+async function hitachi() {
+  const result = await request.get(
+    "https://careers.hitachi.com/search/jobs/in/country/nepal"
+  );
+  const $ = cheerio.load(result);
+  $(
+    "#search-jobs-in-country-nepal > div.page-container.fadeIn > div.tal > div > div.page-section-1 > div > div.medium-8.large-9.columns > div > div.jobs-section__inner > div.jobs-section__list.space-2 > div > div > div.large-5.columns > a"
+  ).each((index, element) => {
+    console.log($(element).text().trim() + " " + "hitachi");
+  });
+}
+
+async function proxmed() {
+  const result = await request.get("https://www.proxmed.com.au/open-positions");
+  const $ = cheerio.load(result);
+  $($("[id^=comp] > h5 > span > span > span > span")).each((index, element) => {
+    console.log($(element).text().trim() + " " + "proxmed");
+  });
+}
+
+async function raralabs() {
+  const result = await request.get("https://raralabs.com/career");
+  const $ = cheerio.load(result);
+  $(
+    "body > div > div > div.desktop\\:max-w-6xl.desktop\\:px-8.mx-auto.desktop\\:py-6.my-8 > div.pt-16 > ul > li > div > h4"
+  ).each((index, element) => {
+    console.log($(element).text().trim() + " " + "raralabs");
+  });
+}
+
+//"div.elementor-widget-heading > div > h4
+
+async function ibriz() {
+  const result = await request.get("https://ibriz.ai/careers/");
+  const $ = cheerio.load(result);
+  $(
+    "#Roles > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-f06038b.elementor-hidden-phone.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-33.elementor-inner-column.elementor-element.elementor-element-ccd7139 > div > div.elementor-widget-heading > div > h4"
+  ).each((index, element) => {
+    console.log($(element).text().trim() + " " + "ibriz.ai");
   });
 }
 
