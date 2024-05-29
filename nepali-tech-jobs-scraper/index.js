@@ -1,33 +1,51 @@
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 const request = require("request-promise");
 const cheerio = require("cheerio");
 const jsdom = require("jsdom");
 const axios = require("axios");
 
 async function main() {
-  logpoint();
-  cedar_gate();
-  chuchuro_firm();
-  verisk();
-  ebpearls();
-  genesesolution();
-  globallynepal();
-  wolfmatrix();
-  javra();
-  infinite();
-  insight_workshop();
-  fusemachines();
-  tekkon();
-  growbydata();
-  hazesoft();
-  gurzu();
-  softbenz();
-  greenticknepal();
-  threatnix();
-  esewa();
-  hitachi();
-  proxmed();
-  raralabs();
-  ibriz();
+  // logpoint();
+  // cedar_gate();
+  // chuchuro_firm();
+  // verisk();
+  // ebpearls();
+  // genesesolution();
+  // globallynepal();
+  // wolfmatrix();
+  // javra();
+  // infinite();
+  // insight_workshop();
+  // fusemachines();
+  // tekkon();
+  // growbydata();
+  // hazesoft();
+  // gurzu();
+  // softbenz();
+  // greenticknepal();
+  // threatnix();
+  // esewa();
+  // hitachi();
+  // proxmed();
+  // raralabs();
+  // ibriz();
+  // bitskraft();
+  // wiseyak();
+  // compliance_quest();
+  // percoidit();
+  // innovate_tech();
+  // SoAni_Tech();
+  // intuji();
+  // uptechsys();
+  // cloudhero();
+  // beyondid();
+  // clusus();
+  // viveka_health();
+  // tekvortex();
+  // swift_tech();
+  // berry_bytes();
+  // houzz();
+  //younginnovations();
 }
 
 async function logpoint() {
@@ -90,6 +108,17 @@ async function ebpearls() {
   });
 }
 
+async function SoAni_Tech() {
+  const result = await request.get(
+    "https://jobaxle.com/employer/soani-tech-350"
+  );
+  const $ = cheerio.load(result);
+  $(
+    "body > div.wrapper > div.main > div > div > div > div > div.col-md-9.col-sm-8 > div > div > div > div > div > h4.job-title > a"
+  ).each((index, element) => {
+    console.log($(element).text().trim() + " " + "so ani tech");
+  });
+}
 async function genesesolution() {
   const result = await request.get(
     "https://jobaxle.com/employer/genese-solution-870"
@@ -99,6 +128,15 @@ async function genesesolution() {
     "body > div.wrapper > div.main > div > div > div > div > div.col-md-9.col-sm-8 > div > div > div > div > div > h4.job-title > a"
   ).each((index, element) => {
     console.log($(element).text().trim() + " " + "genese solution");
+  });
+}
+async function intuji() {
+  const result = await request.get("https://jobaxle.com/employer/intuji-8057");
+  const $ = cheerio.load(result);
+  $(
+    "body > div.wrapper > div.main > div > div > div > div > div.col-md-9.col-sm-8 > div > div > div > div > div > h4.job-title > a"
+  ).each((index, element) => {
+    console.log($(element).text().trim() + " " + "intuji");
   });
 }
 
@@ -111,6 +149,17 @@ async function globallynepal() {
     "body > div.wrapper > div.main > div > div > div > div > div.col-md-9.col-sm-8 > div > div > div > div > div > h4.job-title > a"
   ).each((index, element) => {
     console.log($(element).text().trim() + " " + "globally nepal");
+  });
+}
+//career@uptechsys.com
+
+async function uptechsys() {
+  const result = await request.get("https://uptechsys.com/career/");
+  const $ = cheerio.load(result);
+  $(
+    "body > div.wrapper > div.main > div > div > div > div > div.col-md-9.col-sm-8 > div > div > div > div > div > h4.job-title > a"
+  ).each((index, element) => {
+    console.log($(element).text().trim() + " " + "career@uptechsys.com");
   });
 }
 
@@ -188,6 +237,75 @@ async function proxmed() {
   });
 }
 
+async function cloudhero() {
+  const result = await request.get("https://cloudhero.io/careers/");
+  const $ = cheerio.load(result);
+  $($("[id^=heading] > button")).each((index, element) => {
+    console.log($(element).text().trim() + " " + "cloudhero");
+  });
+}
+
+// https://boards.greenhouse.io/beyondidtalentcommunity/jobs/5061698004
+
+async function beyondid() {
+  console.log(
+    "https://boards.greenhouse.io/beyondidtalentcommunity/jobs/5061698004"
+  );
+}
+async function innovate_tech() {
+  const result = await request.get("https://www.innovatetech.io/jobs");
+  const $ = cheerio.load(result);
+  $($("[id^=accordion] > div > button")).each((index, element) => {
+    console.log($(element).text().trim() + " " + "innovate tech");
+  });
+}
+async function clusus() {
+  const result = await request.get("https://www.clusus.com/careers");
+  const $ = cheerio.load(result);
+
+  $(
+    $(
+      "#app > div > main > div > div.section.join-our-team > div > div > div > div > div > div > h4"
+    )
+  ).each((index, element) => {
+    console.log($(element).text().trim() + " " + "innovate tech");
+  });
+}
+
+// viveka health https://docs.google.com/forms/d/e/1FAIpQLSdBRWD0kVnxInk47uPiLWOLF2eGK1pSg94cO3SPmYfoC4n07Q/viewform
+
+async function viveka_health() {
+  const result = await request.get("https://vivekahealth.com/careers/");
+  const $ = cheerio.load(result);
+  $(
+    "body > div > div > div.desktop\\:max-w-6xl.desktop\\:px-8.mx-auto.desktop\\:py-6.my-8 > div.pt-16 > ul > li > div > h4"
+  ).each((index, element) => {
+    console.log(
+      $(element).text().trim() +
+        " " +
+        "vivekahealth https://docs.google.com/forms/d/e/1FAIpQLSdBRWD0kVnxInk47uPiLWOLF2eGK1pSg94cO3SPmYfoC4n07Q/viewform "
+    );
+  });
+  console.log(
+    "vivekahealth https://docs.google.com/forms/d/e/1FAIpQLSdBRWD0kVnxInk47uPiLWOLF2eGK1pSg94cO3SPmYfoC4n07Q/viewform "
+  );
+}
+
+//
+
+async function tekvortex() {
+  const result = await request.get("https://tekvortex.com/careers/");
+  const $ = cheerio.load(result);
+  $("[id^=awsm] > a > div.awsm-grid-left-col > h2").each((index, element) => {
+    console.log($(element).text().trim() + " " + "tekvortex");
+  });
+  $(
+    "#page > div > div > div.container > div > div.singleHiring.col-md-4.aos-init.aos-animate > a > div > h5"
+  ).each((index, element) => {
+    console.log($(element).text().trim() + " " + "tekvortex");
+  });
+}
+
 async function raralabs() {
   const result = await request.get("https://raralabs.com/career");
   const $ = cheerio.load(result);
@@ -198,6 +316,16 @@ async function raralabs() {
   });
 }
 
+async function swift_tech() {
+  const result = await request.get("https://swifttech.com.np/career/");
+  const $ = cheerio.load(result);
+  $("[id^=awsm] > a > div.awsm-grid-left-col > h2").each((index, element) => {
+    console.log($(element).text().trim() + " " + "swift tech");
+  });
+}
+
+console.log("https://www.cloudchomp.com/");
+console.log("https://stormx.io/careers");
 //"div.elementor-widget-heading > div > h4
 
 async function ibriz() {
@@ -215,6 +343,42 @@ async function gurzu() {
   const $ = cheerio.load(result);
   $("#jobs_grid > a > div > div > h3 > span").each((index, element) => {
     console.log($(element).text().trim() + " " + "gurzu");
+  });
+}
+
+async function berry_bytes() {
+  const result = await request.get("https://www.berrybytes.com/careers");
+  const $ = cheerio.load(result);
+  $(
+    "body > section.ftco-section-2.img > div > div > div > div > div > a > h2"
+  ).each((index, element) => {
+    console.log($(element).text().trim() + " " + "berry bytes");
+  });
+}
+
+async function houzz() {
+  const result = await request.get(
+    "https://jobs.lever.co/houzz?location=Nepal"
+  );
+  const $ = cheerio.load(result);
+  $(
+    "body > div.content-wrapper.list-page > div > div > div > div.postings-wrapper > div > div > a > h5"
+  ).each((index, element) => {
+    console.log($(element).text().trim() + " " + "houzz");
+  });
+}
+
+console.log("https://cellapp.co/job-apply/");
+
+//#hiring > div > div > div > h2 > a
+
+async function younginnovations() {
+  const result = await request.get(
+    "https://younginnovations.com.np/career#hiring"
+  );
+  const $ = cheerio.load(result);
+  $("#hiring > div > div > div > h2 > a").each((index, element) => {
+    console.log($(element).text().trim() + " " + "young innovations");
   });
 }
 
@@ -245,6 +409,27 @@ async function threatnix() {
     console.log($(element).text().trim() + " " + "threatnix");
   });
 }
+async function compliance_quest() {
+  const result = await request.get("https://www.compliancequest.com/careers/");
+  const $ = cheerio.load(result);
+
+  $("#boostProductivityAccordion1 > li > a").each((index, element) => {
+    console.log($(element).text().trim() + " " + "compliance quest");
+  });
+}
+
+async function percoidit() {
+  const result = await request.get(
+    "https://www.jobsnepal.com/employer/percoid-it-solutions/8100"
+  );
+  const $ = cheerio.load(result);
+  console.log("careers@percoidit.com");
+  $(
+    "#app > div > div > div.row.my-4 > div.col-md-8.py-2.px-0.top-content > div > div > div > div.card-body > h2 > a"
+  ).each((index, element) => {
+    console.log($(element).text().trim() + " " + "percoidit");
+  });
+}
 async function infinite() {
   const result = await request.get(
     "https://sjobs.brassring.com/TGNewUI/Search/Home/Home?partnerid=26656&siteid=5008#Entity=Infinite%20Software%20Services%20Nepal%20Pvt.%20Ltd.&keyWordSearch=&locationSearch="
@@ -253,6 +438,18 @@ async function infinite() {
   const $ = cheerio.load(result);
   //console.log($);
   console.log($("#Job_0").text());
+}
+
+async function bitskraft() {
+  const result = await request.get("https://bitskraft.com/career/");
+  const $ = cheerio.load(result);
+  $("#>h4>a").each((index, element) => {
+    console.log($(element).text().trim() + " " + "threatnix");
+  });
+}
+
+async function wiseyak() {
+  console.log("send email to  info@wiseyak.com");
 }
 
 async function insight_workshop() {
